@@ -6,6 +6,7 @@ This project was first meant to serve as a playground to learn Apache Spark by e
 
 NYC Taxi data is a collection of all the trips done in February / 2021. In one of the excercises I had to calculate the "the most common pickup-dropoff pair" and it turns out that it is the one occured in the same zone of NY:
 
+```
 +------------+------------+---------+
 |PULocationID|DOLocationID|frequency|
 +------------+------------+---------+
@@ -15,9 +16,11 @@ NYC Taxi data is a collection of all the trips done in February / 2021. In one o
 |          61|          61|    25976|
 |          14|          14|    17934|
 +------------+------------+---------+
+```
 
 I just had to further investigate it, and found out that only three vehicles in the New York (for that month being!) contributed to the case of driving in the same NY zones:
 
+```
 +-----------------+---------+
 |hvfhs_license_num|frequency|
 +-----------------+---------+
@@ -25,6 +28,7 @@ I just had to further investigate it, and found out that only three vehicles in 
 |           HV0005|   245014|
 |           HV0004|     2788|
 +-----------------+---------+
+```
 
 which, apart from other facts that I've discussed in the notebook, led me to the conclusion that on average most people churned their trips in those taxi cabs in no more than 10mins! 
 
