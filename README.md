@@ -4,7 +4,7 @@
 
 This project was first meant to serve as a playground to learn Apache Spark by exploring its various functionalities and understanding the theory behind it, but furthermore scaled to analysis project since some excercises *sparked* (get it?) my interest to further investigate and understand the data. 
 
-NYC Taxi data is a collection of all the trips done in February / 2021. In one of the excercises I had to calculate the "the most common pickup-dropoff pair" and it turns out that it is the one occured in the same zone of NY:
+This NYC Taxi dataset is a collection of all the trips done in February / 2021. In one of the excercises I had to calculate the "the most common pickup-dropoff pair" and it turns out that is the one occured in the same zone of NY:
 
 ```
 +------------+------------+---------+
@@ -30,6 +30,6 @@ I just had to further investigate it, and found out that only three vehicles in 
 +-----------------+---------+
 ```
 
-which, apart from other facts that I've discussed in the notebook, led me to the conclusion that on average most people churned their trips in those taxi cabs in no more than 10mins! 
+which, apart from other facts that I've discussed in the notebook, led me to the conclusion that for those taxi cabs, on average, most people churned their trips in no more than 10mins! By investigating some NYs areas using Google Maps I found that, on average, it takes no more than **8mins** of pure walking from two most distant points in those areas.
 
-There are around 900k such trips in just one month, and as a taxi service this kind of analysis would help in further investigating what happend and see if it potentialy harms my income. Maybe it is because of high traffic congestion in NY and people decide it is better to walk? Maybe this analysis would help to re-route some taxi cabs in those areas? 
+There are around **900k** such trips in just **one month**, and as a taxi service I would be very concerned. This kind of analysis would help in further investigation of what happend, possibly deciding new business strategies. Maybe it is because of high traffic congestion in NY and people decide it is better to walk? Maybe in those areas some re-routing would help in less churn? Maybe something happend that month in those areas which lead to churn? 
