@@ -1,6 +1,6 @@
 # nyc-taxi-analysis
 
-![alt text](https://productplacementblog.com/wp-content/uploads/2021/06/Manolo-Blahnik-Store-Paper-Bag-Held-by-Sarah-Jessica-Parker-as-Carrie-Bradshaw-in-Sex-and-the-City-S04E12-1-1536x864.jpg)
+<img src = 'https://github.com/lobvh/nyc-taxi-analysis/blob/main/sjp.jpeg?raw=true'> 
 
 This project was first meant to serve as a playground to learn Apache Spark by exploring its various functionalities and understanding the theory behind it, but furthermore scaled to analysis project since some excercises *sparked* (get it?) my interest to further investigate and understand the data. 
 
